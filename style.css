@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color in print */
+    -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
+    color-adjust: exact !important;  /*Firefox*/
+}
+
+:root {
+    --font-main: 'Roboto', sans-serif;
+    --font-text: 14px;
+    --color-main:#003b47;
+    --yellow-main: #ffcb47;
+    --white-main: #f4f4f4;
+}
+
+html, body {
+    background-color: #d4d4d4;
+    font-family: var(--font-main);
+    color: var(--color-main);
+    font-size: 18px;
+} 
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h4, h5, h6 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+hr {
+    margin: unset;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+    color: var(--color-main) !important;
+}
+
+ul {
+    list-style: none;
+}
+
+.mt-lv1 {
+    margin-top: 30px;
+}
+
+.mt-lv2 {
+    margin-top: 20px;
+}
+
+.mt-lv3 {
+    margin-top: 10px;
+}
+
+.mb-lv1 {
+    margin-bottom: 30px;
+}
+
+.mb-lv2 {
+    margin-bottom: 20px;
+}
+
+.mb-lv3 {
+    margin-bottom: 10px;
+}
+
+body {}
+
+/* TITLE_PATH */
+.title-path {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.title-path .name-path {
+    text-transform: uppercase;
+}
+
+.title-path hr {
+    width: 100%;
+    margin-left: 10px;
+    border-top: 2px solid;
+    height: 5px;
+}
+/* END_TITLE_PATH */
+
+/* TOOL_PAGE */
+.tool-page {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+    z-index: 2;
+}
+
+.tool-page .tool-lang {
+    display: flex;
+}
+
+.tool-lang .img-flag {height: 21px;margin-right: 5px;cursor: pointer;}
+
+.img-flag img {
+    height: 100%;
+}
+
+.tool-page .tool-file {}
+
+.tool-file .btn{
+    background-color: var(--yellow-main);
+    border: unset;
+    color: var(--color-main);
+    font-size: 16px;
+    margin-left: 5px;
+    z-index: 2;
+}
+
+.tool-file i {
+    font-size: 20px;
+}
+/* END_TOOL_PAGE */
+
+/* MAIN */
+main {}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* PROFILE */
+.profile {
+    background: var(--yellow-main);
+}
+
+.profile .info {
+    text-align: center;
+}
+
+.info .border-img-profile {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 100%;
+    overflow: hidden;
+    border: solid 3px #f4f4f4;
+}
+
+.border-img-profile img {
+    width: 100%;
+    height: 100%;
+}
+
+.info h1 {
+    text-transform: uppercase;
+}
+
+.info span {
+    text-transform: uppercase;
+}
+/* END_PROFILE */
+
+/* CONTACT */
+.contact {}
+
+.contact .list-contact {
+    margin-left: 10px;
+}
+
+.list-contact .e-contact{
+    margin-bottom: 10px;
+}
+
+.e-contact a {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.e-contact .icon-contact {
+    width: 30px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.icon-contact i {
+    font-size: 24px;
+}
+
+.e-contact span {
+    width: calc(100% - 35px);
+    word-break: break-all;
+}
+/* END_CONTACT */
+
+/* SKILL */
+.list-skill {
+    margin-left: 10px;
+}
+
+.list-skill .e-skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.e-skill .icon-skill {
+    width: 30px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.icon-skill i {
+    font-size: 24px;
+}
+
+.e-skill span {
+    width: calc(100% - 35px);
+    word-break: break-all;
+}
+/* END_SKILL */
+
+/* ABOUT_ME */
+.about-me {
+    background: var(--white-main);
+}
+
+/* DESCRIPTION */
+.description {}
+
+.description h2 {
+    text-transform: uppercase;
+    color: var(--yellow-main);
+    font-size: 24px;
+}
+
+.description p {}
+/* END_DESCRIPTION */
+
+/* EXPERIENCES */
+.experiences {}
+
+.experiences .list-experiences {}
+
+.list-experiences .e-experience {
+    margin-bottom: 15px;
+}
+
+.e-experience .name-experience {
+    display: inline-block;
+}
+
+.e-experience .name-experience::after {
+    content: " - ";
+    font-weight: 400;
+}
+
+.e-experience .company-experience {}
+
+.e-experience .desc-experience {
+    margin: 5px 0px;
+}
+
+.e-experience ul.note-experience {
+    margin-left: 40px;
+    margin-bottom: 0px;
+    list-style-type: disc;
+}
+
+ul.note-experience li {}
+
+.note-experience strong {}
+
+.note-experience strong:after {
+    content: " ";
+}
+/* END_EXPERIENCES */
+
+/* PRODUCT */
+.product {}
+
+.product .list-product {}
+
+.list-product .e-product {
+    margin-bottom: 10px;
+}
+
+.e-product a {
+    display: block;
+    background: white;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 0px rgba(4, 6, 4, 0.08);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(4, 6, 4, 0.08);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(4, 6, 4, 0.08);
+}
+
+.e-product img{}
+
+.e-product .info-product {
+    margin: 10px;
+}
+
+.e-product .name-product {
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.e-product .desc-product {
+    font-size: 13px;
+    color: #989898;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+/* END_PRODUCT */
+
+/* END_ABOUT_ME */
+
+/* END_MAIN */
+
+/* FOOTER */
+footer {}
+
+.footer {}
+
+.footer .copyright {
+    text-align: center;
+}
+
+.copyright a {
+}
+/* END_FOOTER */
+
+@media print {
+    @page {
+        size: A4;
+        margin: 0cm;
+    }
+    
+    main {
+        margin-top: 0px !important;
+    }
+    
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+    }
+    .col-md-12 {
+    width: 100%;
+    }
+    .col-md-11 {
+    width: 91.66666666666666%;
+    }
+    .col-md-10 {
+    width: 83.33333333333334%;
+    }
+    .col-md-9 {
+    width: 75%;
+    }
+    .col-md-8 {
+    width: 66.66666666666666%;
+    }
+    .col-md-7 {
+    width: 58.333333333333336%;
+    }
+    .col-md-6 {
+    width: 50%;
+    }
+    .col-md-5 {
+    width: 41.66666666666667%;
+    }
+    .col-md-4 {
+    width: 33.33333333333333%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-2 {
+        width: 16.666666666666664%;
+    }
+    .col-md-1 {
+    width: 8.333333333333332%;
+    }
+}

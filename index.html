@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title class="name-cv">Nguyễn Trọng Dương</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <div class="tool-page">
+            <div class="tool-lang">
+                <div class="img-flag" data-lang="vn">
+                    <img src="./public/vn-flag.png" alt="Vietnamese">
+                </div>
+                <div class="img-flag" data-lang="en">
+                    <img src="./public/en-flag.png" alt="English">
+                </div>
+            </div>
+            <div class="tool-file">
+                <button type="button" class="btn btn-info" id="btn-export-cv"><i class="fas fa-file-export"></i> <span>Xuất CV</span></button>
+                <button type="button" class="btn btn-info" id="btn-detail-cv"><i class="fas fa-file-word text-primary"></i> <span>Chi tiết CV</span></button>
+            </div>
+        </div>
+    </div>
+    <main class="mt-lv3">
+        <div class="container">
+            <div class="row">
+                <section class="profile col-md-4">
+                    <div class="info mt-lv1">
+                        <div class="border-img-profile">
+                            <img class="img-cv" src="" alt="">
+                        </div>
+                        <h1 class="name-cv mt-lv3"></h1>
+                        <span class="job-cv"></span>
+                    </div>
+                    <div class="contact mt-lv2">
+                        <div class="title-path">
+                            <h2 class="name-path">Contacts</h2>
+                            <hr>
+                        </div>
+                        <ul class="list-contact">
+                            <li class="e-contact d-none" id="e-contact-temp">
+                                <a href="" target="_blank">
+                                    <div class="icon-contact">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <span class="val-contact">value</span>  
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skill mt-lv2 mb-lv1">
+                        <div class="title-path">
+                            <h2 class="name-path">Skills</h2>
+                            <hr>
+                        </div>
+                        <ul class="list-skill">
+                            <li class="e-skill d-none" id="e-skill-temp">
+                                <div class="icon-skill">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <span class="val-skill">value</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="about-me col-md-8">
+                    <div class="description mt-lv1">
+                       <h2>Xin chào!</h2>
+                       <p class="description-cv mt-lv3"></p>     
+                    </div>
+                    <div class="experiences mt-lv2">
+                        <div class="title-path">
+                            <h2 class="name-path">
+                                Experiences
+                            </h2>
+                            <hr>
+                        </div>
+                        <div class="list-experiences">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="e-experience col-12 d-none" id="e-experience-temp">
+                                        <h3 class="name-experience"></h3>
+                                        <span class="company-experience"></span>
+                                        <p class="desc-experience"></p>
+                                        <ul class="note-experience">
+                                            <li>
+                                                <strong class="name-note-experience">Project size:</strong> <span class="val-note-experience">2 people</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product mt-lv2">
+                        <div class="title-path">
+                            <h2 class="name-path">
+                                Demo
+                            </h2>
+                            <hr>
+                        </div>
+                        <div class="list-product">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="e-product col-6 col-lg-4 d-none" id="e-product-temp">
+                                        <a href="" target="_blank">
+                                            <img class="img-product" src="" alt="haphatsmarthome">
+                                            <div class="info-product">
+                                                <span class="name-product"></span>
+                                                <span class="desc-product"></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>    
+    </main>
+    <footer class="mt-lv3">
+        <div class="container">
+            <div class="row">
+                <div class="footer col-12">
+                    <div class="copyright">© 2020 All rights reserved. Designed by <a href="" class="name-cv">Nguyễn Trọng Dương</a> </div>  
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/plugins/particles/particles.min.js"></script>
+    <script src="/plugins/print_this/printThis.js"></script>
+    <script src="/js/app_config.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
