@@ -25,7 +25,6 @@ $(function() {
   particlesJS.load('particles-js', 'plugins/particles/particles.json');
 
   //view content
-  console.log(INFOR_CV_VN);
   viewContentCV(INFOR_CV_VN);
 
   //tool page
