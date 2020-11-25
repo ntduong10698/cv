@@ -189,6 +189,7 @@
                     });
                 } else {
                     $head.append("<link type='text/css' rel='stylesheet' href='" + opt.loadCSS + "'>");
+                    console.log("<link type='text/css' rel='stylesheet' href='" + opt.loadCSS + "'>");
                 }
             }
 
