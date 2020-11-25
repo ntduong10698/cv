@@ -170,6 +170,7 @@
                 if (href) {
                     var media = $(this).attr("media") || "all";
                     $head.append("<link type='text/css' rel='stylesheet' href='" + href + "' media='" + media + "'>");
+                    console.log("<link type='text/css' rel='stylesheet' href='" + href + "' media='" + media + "'>");
                 }
             });
 
