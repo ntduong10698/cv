@@ -40,7 +40,7 @@ function clickBtnExportCV() {
     printElemnt.printThis({
       importCSS: true,
       importStyle: true,
-      loadCSS: "./style.css",
+      loadCSS: "style.css",
     })
   })
 }
