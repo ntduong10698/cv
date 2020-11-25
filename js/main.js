@@ -22,7 +22,7 @@ $(function() {
   eProductTemp = $("#e-product-temp");
 
   //run particle
-  particlesJS.load('particles-js', '../plugins/particles/particles.json');
+  particlesJS.load('particles-js', './../plugins/particles/particles.json');
 
   //view content
   console.log(INFOR_CV_VN);
