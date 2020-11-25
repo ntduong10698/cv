@@ -162,7 +162,7 @@
                 baseURL = document.location.protocol + '//' + document.location.host;
             }
 
-            $head.append('<base href="' + baseURL + PERFIX_PRINT_THIS + '">');
+            $head.append('<base href="' + baseURL + '">');
 
             // import page stylesheets
             if (opt.importCSS) $("link[rel=stylesheet]").each(function() {
@@ -170,7 +170,6 @@
                 if (href) {
                     var media = $(this).attr("media") || "all";
                     $head.append("<link type='text/css' rel='stylesheet' href='" + href + "' media='" + media + "'>");
-                    console.log("<link type='text/css' rel='stylesheet' href='" + href + "' media='" + media + "'>");
                 }
             });
 
