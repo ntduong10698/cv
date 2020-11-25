@@ -1,5 +1,5 @@
 const INFOR_CV_VN = {
-    imgCV: '/public/img-cv.jpg',
+    imgCV: 'public/img-cv.jpg',
     name: 'Nguyễn Trọng Dương',
     job: 'Software Developer',
     contacts: [
@@ -154,31 +154,31 @@ const INFOR_CV_VN = {
     ],
     products: [
         {
-            img: '/public/product/haphat.PNG',
+            img: 'public/product/haphat.PNG',
             name: 'Camera Hà Phát',
             description: 'Website bán camera',
             href: 'https://haphatsmarthome.com/'
         },
         {
-            img: '/public/product/quyhoachbacgiang.png',
+            img: 'public/product/quyhoachbacgiang.png',
             name: 'Quy hoạch sử dụng đất',
             description: 'Website quản lý qhsdd nội bộ',
             href: ''
         },
         {
-            img: '/public/product/nataliepmu.PNG',
+            img: 'public/product/nataliepmu.PNG',
             name: 'Natalie PMU',
             description: 'Website dịch vụ thẩm mỹ',
             href: 'https://nataliepmu.com/'
         },
         {
-            img: '/public/product/theitbidienavhh.PNG',
+            img: 'public/product/theitbidienavhh.PNG',
             name: 'AVHH',
             description: 'Thiết bị điện AVHH',
             href: 'https://thietbidienavhh.com/'
         },
         {
-            img: '/public/product/dongydomuoi.PNG',
+            img: 'public/product/dongydomuoi.PNG',
             name: 'Đỗ Mười',
             description: 'Đông Y Đỗ Mười',
             href: 'http://dongydomuoi.com/'
@@ -187,7 +187,7 @@ const INFOR_CV_VN = {
 }
 
 const INFOR_CV_EN = {
-    imgCV: '/public/img-cv.jpg',
+    imgCV: 'public/img-cv.jpg',
     name: 'Nguyen Trong Duong',
     job: 'Software Developer',
     contacts: [
@@ -342,31 +342,31 @@ const INFOR_CV_EN = {
     ],
     products: [
         {
-            img: '/public/product/haphat.PNG',
+            img: 'public/product/haphat.PNG',
             name: 'Camera Hà Phát',
             description: 'Website bán camera',
             href: 'https://haphatsmarthome.com/'
         },
         {
-            img: '/public/product/quyhoachbacgiang.png',
+            img: 'public/product/quyhoachbacgiang.png',
             name: 'Quy hoạch sử dụng đất',
             description: 'Website quản lý qhsdd nội bộ',
             href: ''
         },
         {
-            img: '/public/product/nataliepmu.PNG',
+            img: 'public/product/nataliepmu.PNG',
             name: 'Natalie PMU',
             description: 'Website dịch vụ thẩm mỹ',
             href: 'https://nataliepmu.com/'
         },
         {
-            img: '/public/product/theitbidienavhh.PNG',
+            img: 'public/product/theitbidienavhh.PNG',
             name: 'AVHH',
             description: 'Thiết bị điện AVHH',
             href: 'https://thietbidienavhh.com/'
         },
         {
-            img: '/public/product/dongydomuoi.PNG',
+            img: 'public/product/dongydomuoi.PNG',
             name: 'Đỗ Mười',
             description: 'Đông Y Đỗ Mười',
             href: 'http://dongydomuoi.com/'
