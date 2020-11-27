@@ -162,7 +162,7 @@
                 baseURL = document.location.protocol + '//' + document.location.host;
             }
 
-            $head.append('<base href="' + baseURL + '">');
+            $head.append('<base href="' + baseURL + PERFIX_PRINT_THIS + '">');
 
             // import page stylesheets
             if (opt.importCSS) $("link[rel=stylesheet]").each(function() {
