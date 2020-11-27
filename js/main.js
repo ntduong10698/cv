@@ -1,5 +1,5 @@
 var btnExportCV, btnDetailCV, imgFlag;
-var imgCV, nameCV, jobCV, eContactTemp, listContact, eSkillTemp, listSkill, descriptionCV, eExperienceTemp, listExperience, listProduct, eProductTemp;
+var imgCV, nameCV, jobCV, eContactTemp, listContact, eSkillTemp, listSkill, descriptionCV, eExperienceTemp, listExperience, listProduct, eProductTemp, h2Contact, h2Skill, h2Experiences, h2Demo;
 var langPage = "vn";
 $(function() {
 
@@ -20,6 +20,10 @@ $(function() {
   listExperience = $(".list-experiences .row");
   listProduct = $(".list-product .row");
   eProductTemp = $("#e-product-temp");
+  h2Contact = $(".contact .name-path");
+  h2Skill = $(".skill .name-path");
+  h2Experiences = $(".experiences .name-path");
+  h2Demo = $(".product .name-path");
 
   //run particle
   particlesJS.load('particles-js', 'plugins/particles/particles.json');
@@ -57,21 +61,15 @@ function clickImgFlag() {
       if(lang != langPage) {
         langPage = lang;
         if(langPage == 'vn') {
-          //set tool
-          btnDetailCV.find("span").html("Chi tiết CV");
-          btnExportCV.find("span").html("Xuất CV");
           //lưu localStorage
           localStorage.setItem("lang", "vn");
           //set content
-          viewContentCV(INFOR_CV_VN);
+          viewContentCV_VN();
         } else if(langPage == 'en') {
-          //set tool
-          btnDetailCV.find("span").html("Detail CV");
-          btnExportCV.find("span").html("Export CV");
           //lưu localStorage
           localStorage.setItem("lang", "en");
           //set content
-          viewContentCV(INFOR_CV_EN);
+          viewContentCV_EN();
         }
       }
   })
@@ -164,9 +162,33 @@ function viewContentCVFrist() {
   let lang = localStorage.getItem("lang");
   if(lang == "en") {
     langPage = "en";
-    viewContentCV(INFOR_CV_EN);
+    viewContentCV_EN();
   } else {
     localStorage.setItem("lang", "vn");
-    viewContentCV(INFOR_CV_VN);
+    viewContentCV_VN();
   }
+}
+
+function viewContentCV_EN() {
+  //set tool
+  btnDetailCV.find("span").html("Detail CV");
+  btnExportCV.find("span").html("Export CV");
+  //set content
+  // h2Contact.html("Contacts");
+  // h2Skill.html("Skills");
+  // h2Experiences.html("Experiences");
+  // h2Demo.html("Demo");
+  viewContentCV(INFOR_CV_EN);
+}
+
+function viewContentCV_VN() {
+  //set tool
+  btnDetailCV.find("span").html("Chi tiết CV");
+  btnExportCV.find("span").html("Xuất CV");
+  //set content
+  // h2Contact.html("Liên Hệ");
+  // h2Skill.html("Kỹ Năng");
+  // h2Experiences.html("Kinh Nghiệm");
+  // h2Demo.html("Giới Thiệu Sản Phẩm");
+  viewContentCV(INFOR_CV_VN);
 }
