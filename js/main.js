@@ -25,7 +25,7 @@ $(function() {
   particlesJS.load('particles-js', 'plugins/particles/particles.json');
 
   //view content
-  viewContentCV(INFOR_CV_VN);
+  viewContentCVFrist();
 
   //tool page
   clickBtnExportCV();
@@ -60,12 +60,16 @@ function clickImgFlag() {
           //set tool
           btnDetailCV.find("span").html("Chi tiết CV");
           btnExportCV.find("span").html("Xuất CV");
+          //lưu localStorage
+          localStorage.setItem("lang", "vn");
           //set content
           viewContentCV(INFOR_CV_VN);
         } else if(langPage == 'en') {
           //set tool
           btnDetailCV.find("span").html("Detail CV");
           btnExportCV.find("span").html("Export CV");
+          //lưu localStorage
+          localStorage.setItem("lang", "en");
           //set content
           viewContentCV(INFOR_CV_EN);
         }
@@ -153,5 +157,16 @@ function viewContentCV(inforCV) {
     })
     listProduct.html(viewProducts);
     listProduct.append(eProductTemp);
+  }
+}
+
+function viewContentCVFrist() {
+  let lang = localStorage.getItem("lang");
+  if(lang == "en") {
+    langPage = "en";
+    viewContentCV(INFOR_CV_EN);
+  } else {
+    localStorage.setItem("lang", "vn");
+    viewContentCV(INFOR_CV_VN);
   }
 }
