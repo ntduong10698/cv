@@ -1,5 +1,5 @@
 const INFOR_CV_VN = {
-    imgCV: './public/img-cv.jpg',
+    imgCV: 'public/img-cv.jpg',
     name: 'Nguyễn Trọng Dương',
     job: 'Software Developer',
     contacts: [
@@ -187,7 +187,7 @@ const INFOR_CV_VN = {
 }
 
 const INFOR_CV_EN = {
-    imgCV: './public/img-cv.jpg',
+    imgCV: 'public/img-cv.jpg',
     name: 'Nguyen Trong Duong',
     job: 'Software Developer',
     contacts: [
