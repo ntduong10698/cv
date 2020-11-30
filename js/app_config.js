@@ -1,4 +1,7 @@
 const PERFIX_PRINT_THIS = "/cv/";
+const TIME_ALERT = 2000;
+const INFOR_PRODUCT_PRIVATE_VN = "Sản phẩm chỉ được sử dụng trong nội bộ.";
+const INFOR_PRODUCT_PRIVATE_EN = "Product is for internal use only."; 
 const INFOR_CV_VN = {
     imgCV: 'public/img-cv.jpg',
     name: 'Nguyễn Trọng Dương',
@@ -182,7 +185,7 @@ const INFOR_CV_VN = {
             img: './public/product/dongydomuoi.PNG',
             name: 'Đỗ Mười',
             description: 'Đông Y Đỗ Mười',
-            href: 'http://dongydomuoi.com/'
+            href: 'https://dev.bksoftwarevn.com/dongydomuoi_com/'
         }
     ]
 }
@@ -243,7 +246,7 @@ const INFOR_CV_EN = {
             value: 'SQL Server/ MySQL/ MariaDB'
         }
     ],
-    descriptionCV: 'My name is Nguyen Trong Duong. Currently I am a Software Developer. I graduated from Hanoi University of Science and Technology and participated in teaching Java programing language at the club ITStudent. With the experience of implementing a website system from analysis of customer requirements to the product is deployed, I believe  that I will work and cooporate successfully with the spirit of learning and responsibility at work. I hope to be working with you makes a small contribution to the development of the company.',
+    descriptionCV: 'My name is Nguyen Trong Duong. Currently, I am a Software Developer. I graduated from Hanoi University of Science and Technology and participated in teaching Java programming language at the club ITStudent. With the experience of implementing a website system from analysis of customer requirements to the product is deployed, I believe  that I will work and cooporate successfully with the spirit of learning and responsibility at work. I hope to be working with you makes a small contribution to the development of the company.',
     experiences: [
         {
             name: 'Ha Phat Camera',
@@ -370,7 +373,7 @@ const INFOR_CV_EN = {
             img: './public/product/dongydomuoi.PNG',
             name: 'Do Muoi',
             description: 'Website oriental medicine',
-            href: 'http://dongydomuoi.com/'
+            href: 'https://dev.bksoftwarevn.com/dongydomuoi_com/'
         }
     ]
 }

@@ -37,6 +37,56 @@ $(function() {
   clickImgFlag();
 })
 
+function viewField(text) {
+  return text ? text : "";
+}
+
+function alertSuccess(text, time = TIME_ALERT) {
+  $.notify({
+      icon: 'far fa-check-circle',
+      message: text 
+  }, {
+      delay: time,
+      offset: {x: 15, y:15},
+      type: 'success',
+  })
+}
+
+function alertInfo(text, time = TIME_ALERT) {
+ $.notify({
+     icon: 'far fa-check-circle',
+     message: text 
+ }, {
+     delay: time,
+     offset: {x: 15, y:15},
+     type: 'info',
+ })
+}
+
+function alertWarning(text, time = TIME_ALERT) {
+ $.notify({
+     icon: 'fas fa-exclamation',
+     message: text 
+ }, {
+     delay: time,
+     offset: {x: 15, y:15},
+     type: 'warning',
+ })
+}
+
+function alertDanger(text, time = TIME_ALERT) {
+ $.notify({
+     icon: 'fas fa-exclamation-triangle',
+     message: text 
+ }, {
+     delay: time,
+     offset: {x: 15, y:15},
+     type: 'danger',
+ })
+}
+
+//END_FUNCTION_GLOBAL
+
 function clickBtnExportCV() {
   btnExportCV.click(function() {
     let printElemnt = $("main").clone();
@@ -73,10 +123,6 @@ function clickImgFlag() {
         }
       }
   })
-}
-
-function viewField(text) {
-  return text ? text : "";
 }
 
 function viewContentCV(inforCV) {
@@ -155,6 +201,7 @@ function viewContentCV(inforCV) {
     })
     listProduct.html(viewProducts);
     listProduct.append(eProductTemp);
+    handelClickDemoNoLink();
   }
 }
 
@@ -191,4 +238,15 @@ function viewContentCV_VN() {
   // h2Experiences.html("Kinh Nghiệm");
   // h2Demo.html("Giới Thiệu Sản Phẩm");
   viewContentCV(INFOR_CV_VN);
+}
+
+function handelClickDemoNoLink() {
+  listProduct.find("a[href='']").click(function() {
+    if(langPage == "en") {
+      alertInfo(INFOR_PRODUCT_PRIVATE_EN);
+    } else {
+      alertInfo(INFOR_PRODUCT_PRIVATE_VN);
+    }
+    return false;
+  })
 }
