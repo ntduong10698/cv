@@ -1,5 +1,4 @@
-// const PERFIX_PRINT_THIS = "/cv/";
-const PERFIX_PRINT_THIS = "";
+const PERFIX_PRINT_THIS = "/cv/";
 const INFOR_CV_VN = {
     imgCV: 'public/img-cv.jpg',
     name: 'Nguyễn Trọng Dương',
