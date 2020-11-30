@@ -1,4 +1,5 @@
-const PERFIX_PRINT_THIS = "/cv/";
+// const PERFIX_PRINT_THIS = "/cv/";
+const PERFIX_PRINT_THIS = "";
 const INFOR_CV_VN = {
     imgCV: 'public/img-cv.jpg',
     name: 'Nguyễn Trọng Dương',
@@ -55,7 +56,7 @@ const INFOR_CV_VN = {
             value: 'SQL Server/ MySQL/ MariaDB'
         }
     ],
-    descriptionCV: '',
+    descriptionCV: 'Tôi là Nguyễn Trọng Dương. Hiện tại tôi là một Software Developer. Đã từng tốt nghiệp cử nhân đại học Bách Khoa Hà Nội và tham gia giảng dạy ngôn ngữ lập trình java tại câu lạc bộ ITStudent. Với các kinh nghiệm từng bước triển khai một hệ thống website từ bước phân tích yêu cầu khách hàng cho đến khi sản phẩm được triển khai cùng với tinh thần học hỏi, trách nhiệm trong công việc tôi hy vọng sẽ được làm việc cùng với anh/chị góp phần nhỏ vào sự phát triển của công ty/tập đoàn.',
     experiences: [
         {
             name: 'Camera Hà Phát',
@@ -243,7 +244,7 @@ const INFOR_CV_EN = {
             value: 'SQL Server/ MySQL/ MariaDB'
         }
     ],
-    descriptionCV: '',
+    descriptionCV: 'My name is Nguyen Trong Duong. Currently I am a Software Developer. I graduated from Hanoi University of Science and Technology and taught Java programing language at the club ITStudent. With the experience of step by step implementing a website system from analysis of customer requirements until the product is deployed with the spirit of learning and responsibility in work, I hope to be working with you makes a small contribution to the development of the company/corporation.',
     experiences: [
         {
             name: 'Ha Phat Camera',
