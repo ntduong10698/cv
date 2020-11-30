@@ -58,7 +58,7 @@ const INFOR_CV_VN = {
             value: 'SQL Server/ MySQL/ MariaDB'
         }
     ],
-    descriptionCV: 'Tôi là Nguyễn Trọng Dương. Hiện tại tôi là một Software Developer. Đã từng tốt nghiệp cử nhân đại học Bách Khoa Hà Nội và tham gia giảng dạy ngôn ngữ lập trình java tại câu lạc bộ ITStudent. Với các kinh nghiệm từng bước triển khai một hệ thống website từ bước phân tích yêu cầu khách hàng cho đến khi sản phẩm được triển khai. Cùng với tinh thần học hỏi, trách nhiệm trong công việc tôi hy vọng sẽ được làm việc cùng với anh/chị góp phần nhỏ vào sự phát triển của công ty',
+    descriptionCV: 'Tôi là Nguyễn Trọng Dương. Hiện tại tôi là một Software Developer. Trước đấy tôi đã tốt nghiệp cử nhân đại học Bách Khoa Hà Nội và từng tham gia giảng dạy ngôn ngữ lập trình java tại câu lạc bộ ITStudent. Với các kinh nghiệm từng bước triển khai một hệ thống website từ bước phân tích yêu cầu khách hàng cho đến khi sản phẩm được triển khai, cùng với tinh thần học hỏi, trách nhiệm trong công việc tôi hy vọng sẽ được làm việc cùng với anh/chị góp phần nhỏ vào sự phát triển của công ty.',
     experiences: [
         {
             name: 'Camera Hà Phát',
@@ -246,7 +246,7 @@ const INFOR_CV_EN = {
             value: 'SQL Server/ MySQL/ MariaDB'
         }
     ],
-    descriptionCV: 'My name is Nguyen Trong Duong. Currently, I am a Software Developer. I graduated from Hanoi University of Science and Technology and participated in teaching Java programming language at the club ITStudent. With the experience of implementing a website system from analysis of customer requirements to the product is deployed, I believe  that I will work and cooporate successfully with the spirit of learning and responsibility at work. I hope to be working with you makes a small contribution to the development of the company.',
+    descriptionCV: 'My name is Nguyen Trong Duong. Currently, I am a Software Developer. I graduated from Hanoi University of Science and Technology and participated in teaching Java programming language at the club ITStudent. With the experience of implementing a website system from analysis of customer requirements to the product is deployed and the spirit of learning and responsibility at work, I hope to be working with you makes a small contribution to the development of the company.',
     experiences: [
         {
             name: 'Ha Phat Camera',
