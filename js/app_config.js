@@ -154,6 +154,25 @@ const INFOR_CV_VN = {
                     value: 'Spring framework, HTML, CSS, JS, MySQL.'
                 }
             ]
+        },
+        {
+            name: 'Quản lý công việc',
+            company: 'TỔNG CÔNG TY GIẢI PHÁP DOANH NGHIỆP VIETTEL',
+            description: 'Website quản lý thông tin khách hàng và công việc của nhân viên.',
+            info: [
+                {
+                    name: 'Quy mô dự án',
+                    value: '2 người.' 
+                },
+                {
+                    name: 'Vị trí/ Trách nhiệm',
+                    value: 'Phát triển/ Tạo cấu trúc, Triển khai.'
+                },
+                {
+                    name: 'Công nghệ sử dụng',
+                    value: 'Spring framework, HTML, CSS, JS, MySQL.'
+                }
+            ]
         }
     ],
     products: [
@@ -332,6 +351,25 @@ const INFOR_CV_EN = {
                 {
                     name: 'Project size',
                     value: '4 people.' 
+                },
+                {
+                    name: 'Position/ Responsibilities',
+                    value: 'Developer/ Create prototype, Implement.'
+                },
+                {
+                    name: 'Used Technologies',
+                    value: 'Spring framework, HTML, CSS, JS, MySQL.'
+                }
+            ]
+        },
+        {
+            name: 'Task Manager',
+            company: 'Viettel solutions',
+            description: 'The Project about web manages customer information and employee task.',
+            info: [
+                {
+                    name: 'Project size',
+                    value: '2 people.' 
                 },
                 {
                     name: 'Position/ Responsibilities',
