@@ -13,6 +13,11 @@ const INFOR_CV_VN = {
             href: 'tel:0966186222'
         },
         {
+            icon: '<i class="fas fa-mobile-alt"></i>',
+            value: '0368565660',
+            href: 'tel:0368565660'
+        },
+        {
             icon: '<i class="far fa-envelope"></i>',
             value: 'ntduong10698@gmail.com',
             href: 'mailto:ntduong10698@gmail.com'
@@ -171,6 +176,25 @@ const INFOR_CV_VN = {
                 {
                     name: 'Công nghệ sử dụng',
                     value: 'Spring framework, HTML, CSS, JS, MySQL.'
+                }
+            ]
+        },
+        {
+            name: 'Sản phẩm thẻ',
+            company: 'TPBank',
+            description: 'Cung cấp và phát triển các dịch vụ thẻ cho khách hàng cá nhân và doanh nghiệp.',
+            info: [
+                {
+                    name: 'Quy mô dự án',
+                    value: '10 người.' 
+                },
+                {
+                    name: 'Vị trí/ Trách nhiệm',
+                    value: 'Phát triển/ Tạo cấu trúc, Triển khai.'
+                },
+                {
+                    name: 'Công nghệ sử dụng',
+                    value: 'Spring framework, Backbase, Docker, Oracle.'
                 }
             ]
         }
@@ -378,6 +402,25 @@ const INFOR_CV_EN = {
                 {
                     name: 'Used Technologies',
                     value: 'Spring framework, HTML, CSS, JS, MySQL.'
+                }
+            ]
+        },
+        {
+            name: 'Card Product',
+            company: 'TPBank',
+            description: 'Provide and develop card services for individual and corporate customers.',
+            info: [
+                {
+                    name: 'Project size',
+                    value: '10 people.' 
+                },
+                {
+                    name: 'Position/ Responsibilities',
+                    value: 'Developer/ Create prototype, Implement.'
+                },
+                {
+                    name: 'Used Technologies',
+                    value: 'Spring framework, Backbase, Docker, Oracle.'
                 }
             ]
         }
