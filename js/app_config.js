@@ -31,6 +31,11 @@ const INFOR_CV_VN = {
             icon: '<i class="fab fa-github"></i>',
             value: 'github.com/ntduong10698',
             href: 'https://github.com/ntduong10698'
+        },
+        {
+            icon: '<i class="fa-brands fa-linkedin"></i>',
+            value: 'linkedin.com/in/ntduong10698/',
+            href: 'https://www.linkedin.com/in/ntduong10698/'
         }
     ],
     skills: [
@@ -61,6 +66,22 @@ const INFOR_CV_VN = {
         {
             icon: '<i class="fas fa-database"></i>',
             value: 'SQL Server/ MySQL/ MariaDB'
+        },
+        {
+            icon: '<i class="fa-brands fa-docker"></i>',
+            value: 'Docker'
+        },
+        {
+            icon: '<i class="fa-brands fa-searchengin"></i>',
+            value: 'Elasticsearch'
+        },
+        {
+            icon: '<i class="fa-solid fa-dharmachakra"></i>',
+            value: 'Kubernetes'
+        },
+        {
+            icon: '<i class="fa-brands fa-ubuntu"></i>',
+            value: 'Ubuntu'
         }
     ],
     descriptionCV: 'Tôi là Nguyễn Trọng Dương. Hiện tại tôi là một Software Developer. Trước đấy tôi đã tốt nghiệp cử nhân đại học Bách Khoa Hà Nội và từng tham gia giảng dạy ngôn ngữ lập trình java tại câu lạc bộ ITStudent. Với các kinh nghiệm từng bước triển khai một hệ thống website từ bước phân tích yêu cầu khách hàng cho đến khi sản phẩm được triển khai, cùng với tinh thần học hỏi, trách nhiệm trong công việc tôi hy vọng sẽ được làm việc cùng với anh/chị góp phần nhỏ vào sự phát triển của công ty.',
@@ -197,6 +218,25 @@ const INFOR_CV_VN = {
                     value: 'Spring framework, Backbase, Docker, Oracle.'
                 }
             ]
+        },
+        {
+            name: 'MyViettel',
+            company: 'Viettel Telecom',
+            description: 'Ứng dụng thông minh hỗ trợ các tiên ích cho người dùng mạng Viettel',
+            info: [
+                {
+                    name: 'Quy mô dự án',
+                    value: '10 người.' 
+                },
+                {
+                    name: 'Vị trí/ Trách nhiệm',
+                    value: 'Phát triển/ Tạo cấu trúc, Triển khai.'
+                },
+                {
+                    name: 'Công nghệ sử dụng',
+                    value: 'Spring framework, Webflux, Docker, Kubernetes, MariaDB, Elasticsearch.'
+                }
+            ]
         }
     ],
     products: [
@@ -257,6 +297,11 @@ const INFOR_CV_EN = {
             icon: '<i class="fab fa-github"></i>',
             value: 'github.com/ntduong10698',
             href: 'https://github.com/ntduong10698'
+        },
+        {
+            icon: '<i class="fa-brands fa-linkedin"></i>',
+            value: 'linkedin.com/in/ntduong10698/',
+            href: 'https://www.linkedin.com/in/ntduong10698/'
         }
     ],
     skills: [
@@ -287,6 +332,22 @@ const INFOR_CV_EN = {
         {
             icon: '<i class="fas fa-database"></i>',
             value: 'SQL Server/ MySQL/ MariaDB'
+        },
+        {
+            icon: '<i class="fa-brands fa-docker"></i>',
+            value: 'Docker'
+        },
+        {
+            icon: '<i class="fa-brands fa-searchengin"></i>',
+            value: 'Elasticsearch'
+        },
+        {
+            icon: '<i class="fa-solid fa-dharmachakra"></i>',
+            value: 'Kubernetes'
+        },
+        {
+            icon: '<i class="fa-brands fa-ubuntu"></i>',
+            value: 'Ubuntu'
         }
     ],
     descriptionCV: 'My name is Nguyen Trong Duong. Currently, I am a Software Developer. I graduated from Hanoi University of Science and Technology and participated in teaching Java programming language at the club ITStudent. With the experience of implementing a website system from analysis of customer requirements to the product is deployed and the spirit of learning and responsibility at work, I hope to be working with you makes a small contribution to the development of the company.',
@@ -421,6 +482,25 @@ const INFOR_CV_EN = {
                 {
                     name: 'Used Technologies',
                     value: 'Spring framework, Backbase, Docker, Oracle.'
+                }
+            ]
+        },
+        {
+            name: 'MyViettel',
+            company: 'Viettel Telecom',
+            description: 'Smart application that provides utility for Viettel telecom users',
+            info: [
+                {
+                    name: 'Project size',
+                    value: '10 people.' 
+                },
+                {
+                    name: 'Position/ Responsibilities',
+                    value: 'Developer/ Create prototype, Implement.'
+                },
+                {
+                    name: 'Used Technologies',
+                    value: 'Spring framework, Webflux, Docker, Kubernetes, MariaDB, Elasticsearch.'
                 }
             ]
         }
