@@ -234,7 +234,7 @@ const INFOR_CV_VN = {
                 },
                 {
                     name: 'Công nghệ sử dụng',
-                    value: 'Spring framework, Webflux, Docker, Kubernetes, MariaDB, Elasticsearch, Firebase, Giblab CI/CD.'
+                    value: 'Spring framework, Webflux, Docker, Kubernetes, MariaDB, Elasticsearch, Firebase, Gitlab CI/CD.'
                 }
             ]
         },
