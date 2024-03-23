@@ -234,7 +234,26 @@ const INFOR_CV_VN = {
                 },
                 {
                     name: 'Công nghệ sử dụng',
-                    value: 'Spring framework, Webflux, Docker, Kubernetes, MariaDB, Elasticsearch.'
+                    value: 'Spring framework, Webflux, Docker, Kubernetes, MariaDB, Elasticsearch, Firebase, Giblab CI/CD.'
+                }
+            ]
+        },
+        {
+            name: 'AutoPay',
+            company: 'Viettel Telecom',
+            description: 'Gạch nợ, nạp tiền tự dộng cho các thuê bao Viettel, qua các cổng thanh toán VNPay, ViettelPay, Momo, ATM....',
+            info: [
+                {
+                    name: 'Project size',
+                    value: '10 people.' 
+                },
+                {
+                    name: 'Position/ Responsibilities',
+                    value: 'Analysis, Developer/ Create prototype, Implement.'
+                },
+                {
+                    name: 'Used Technologies',
+                    value: 'Spring framework, Oracle, Kafka.'
                 }
             ]
         }
@@ -500,7 +519,26 @@ const INFOR_CV_EN = {
                 },
                 {
                     name: 'Used Technologies',
-                    value: 'Spring framework, Webflux, Docker, Kubernetes, MariaDB, Elasticsearch.'
+                    value: 'Spring framework, Webflux, Docker, Kubernetes, MariaDB, Elasticsearch, Firebase, Giblab CI/CD.'
+                }
+            ]
+        },
+        {
+            name: 'AutoPay',
+            company: 'Viettel Telecom',
+            description: 'Pay debt, phone recharge automatically for Viettel customers, through payment gateways VNPay, ViettelPay, Momo, ATM....',
+            info: [
+                {
+                    name: 'Project size',
+                    value: '10 people.' 
+                },
+                {
+                    name: 'Position/ Responsibilities',
+                    value: 'Analysis, Developer/ Create prototype, Implement.'
+                },
+                {
+                    name: 'Used Technologies',
+                    value: 'Spring framework, Oracle, Kafka.'
                 }
             ]
         }
