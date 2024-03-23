@@ -49,7 +49,7 @@ const INFOR_CV_VN = {
         },
         {
             icon: '<i class="fab fa-js"></i>',
-            value: 'JavaScript/ Jquery'
+            value: 'JavaScript/Jquery'
         },
         {
             icon: '<i class="fab fa-bootstrap"></i>',
@@ -57,7 +57,7 @@ const INFOR_CV_VN = {
         },
         {
             icon: '<i class="fab fa-java"></i>',
-            value: 'Java Core/ JSP/ Servlet'
+            value: 'Java Core/JSP/Servlet'
         },
         {
             icon: '<i class="fas fa-leaf"></i>',
@@ -65,7 +65,7 @@ const INFOR_CV_VN = {
         },
         {
             icon: '<i class="fas fa-database"></i>',
-            value: 'SQL Server/ MySQL/ MariaDB/ Oracle'
+            value: 'SQL Server/MySQL/MariaDB/Oracle'
         },
         {
             icon: '<i class="fa-brands fa-docker"></i>',
