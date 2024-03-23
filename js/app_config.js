@@ -7,11 +7,11 @@ const INFOR_CV_VN = {
     name: 'Nguyễn Trọng Dương',
     job: 'Software Developer',
     contacts: [
-        {
-            icon: '<i class="fas fa-mobile-alt"></i>',
-            value: '0966186222',
-            href: 'tel:0966186222'
-        },
+        // {
+        //     icon: '<i class="fas fa-mobile-alt"></i>',
+        //     value: '0966186222',
+        //     href: 'tel:0966186222'
+        // },
         {
             icon: '<i class="fas fa-mobile-alt"></i>',
             value: '0368565660',
