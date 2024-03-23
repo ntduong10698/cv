@@ -65,7 +65,7 @@ const INFOR_CV_VN = {
         },
         {
             icon: '<i class="fas fa-database"></i>',
-            value: 'SQL Server/ MySQL/ MariaDB'
+            value: 'SQL Server/ MySQL/ MariaDB/ Oracle'
         },
         {
             icon: '<i class="fa-brands fa-docker"></i>',
